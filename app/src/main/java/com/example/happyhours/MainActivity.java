@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void switch_to_memes(View view){
-        Intent intent = new Intent(this, memes.class);
+    public void switch_to_thoughts(View view){
+        Intent intent = new Intent(this, thoughts.class);
         startActivity(intent);
     }
 

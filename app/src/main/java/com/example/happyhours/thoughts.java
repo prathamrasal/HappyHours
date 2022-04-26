@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class memes extends AppCompatActivity {
+public class thoughts extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

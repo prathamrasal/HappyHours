@@ -13,7 +13,7 @@
             android:name=".videos"
             android:exported="false" />
         <activity
-            android:name=".memes"
+            android:name=".thoughts"
             android:exported="false" />
         <activity
             android:name=".listening"

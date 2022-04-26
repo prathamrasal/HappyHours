@@ -131,7 +131,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:onClick="switch_to_memes"
+            android:onClick="switch_to_thoughts"
             app:cardBackgroundColor="#2D2D2D"
             app:cardCornerRadius="15dp">
 
@@ -152,7 +152,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/oleo"
                     android:gravity="center"
-                    android:text="Memes"
+                    android:text="Thoughts"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
             </LinearLayout>
