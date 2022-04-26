@@ -18,7 +18,6 @@ public class listening extends AppCompatActivity {
     ArrayAdapter adapter;
     MediaPlayer Player;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

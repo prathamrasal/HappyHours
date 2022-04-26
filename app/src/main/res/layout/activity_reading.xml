@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".reading"
     android:background="@drawable/main">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Welcome Back"
+                    android:text="Reading Section"
                     android:fontFamily="@font/oleo"
                     android:textSize="28sp"
                     android:textColor="@color/white"/>
@@ -78,7 +78,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_reading"
+                    android:onClick="couragedisliked"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -99,7 +99,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Reading"
+                            android:text="Courage To Be Disliked"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
@@ -109,7 +109,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_listening"
+                    android:onClick="searchofLostTime"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -130,7 +130,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Listening"
+                            android:text="In Search Of Lost Time"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
@@ -148,7 +148,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_memes"
+                    android:onClick="thinkAndGrowRich"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -169,7 +169,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Memes"
+                            android:text="Think And Grow Rich"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
@@ -179,7 +179,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_videos"
+                    android:onClick="the4hourweek"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -200,7 +200,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Videos"
+                            android:text="The 4 Hour Work Week"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
@@ -216,7 +216,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_reading"
+                    android:onClick="mansSearchForMeaning"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -237,7 +237,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Reading"
+                            android:text="Mans Search For Meaning"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
@@ -247,7 +247,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_listening"
+                    android:onClick="wingsOfFire"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -268,76 +268,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Listening"
-                            android:textColor="@color/white"
-                            android:textSize="24sp" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="180dp"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:onClick="switch_to_reading"
-                    app:cardBackgroundColor="#2D2D2D"
-                    app:cardCornerRadius="15dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="55dp"
-                            android:layout_marginBottom="2dp"
-                            android:src="@drawable/pdf" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/oleo"
-                            android:gravity="center"
-                            android:text="Reading"
-                            android:textColor="@color/white"
-                            android:textSize="24sp" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="180dp"
-                    android:layout_height="200dp"
-                    android:layout_margin="10dp"
-                    android:onClick="switch_to_listening"
-                    app:cardBackgroundColor="#2D2D2D"
-                    app:cardCornerRadius="15dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="55dp"
-                            android:layout_marginBottom="2dp"
-                            android:src="@drawable/pdf" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/oleo"
-                            android:gravity="center"
-                            android:text="Listening"
+                            android:text="Wings Of Fire"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
@@ -354,7 +285,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_reading"
+                    android:onClick="beyondTheLastMountain"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -375,7 +306,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Reading"
+                            android:text="Beyond The Last Blue Mountain"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
@@ -385,7 +316,7 @@
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_margin="10dp"
-                    android:onClick="switch_to_listening"
+                    android:onClick="manWhoKnewInfinity"
                     app:cardBackgroundColor="#2D2D2D"
                     app:cardCornerRadius="15dp">
 
@@ -406,7 +337,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/oleo"
                             android:gravity="center"
-                            android:text="Listening"
+                            android:text="Man Who Knew Infinity"
                             android:textColor="@color/white"
                             android:textSize="24sp" />
                     </LinearLayout>
