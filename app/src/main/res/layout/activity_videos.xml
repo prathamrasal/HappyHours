@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".videos"
     android:background="@drawable/main">
     <RelativeLayout
     android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_reading"
+                android:onClick="college"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -99,7 +99,8 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Reading"
+                        android:text="College
+                         -Parvinder Singh"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
@@ -109,7 +110,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_listening"
+                android:onClick="corporateLife"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -130,7 +131,8 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Listening"
+                        android:text="Corporate Life
+- Rajat Chauhan"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
@@ -148,7 +150,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_memes"
+                android:onClick="friends"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -169,7 +171,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Memes"
+                        android:text="Best of Friends"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
@@ -179,7 +181,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_videos"
+                android:onClick="zakir"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -200,7 +202,8 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Videos"
+                        android:text="Stand Up
+                        - Zakir Khan"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
@@ -216,7 +219,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_reading"
+                android:onClick="bassi"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -237,7 +240,9 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Reading"
+                        android:text="Hostel
+
+-Anubhav Bassi"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
@@ -247,7 +252,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_listening"
+                android:onClick="sudeepSharma"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -268,76 +273,8 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Listening"
-                        android:textColor="@color/white"
-                        android:textSize="24sp" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="180dp"
-                android:layout_height="200dp"
-                android:layout_margin="10dp"
-                android:onClick="switch_to_reading"
-                app:cardBackgroundColor="#2D2D2D"
-                app:cardCornerRadius="15dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="55dp"
-                        android:layout_marginBottom="2dp"
-                        android:src="@drawable/film" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/oleo"
-                        android:gravity="center"
-                        android:text="Reading"
-                        android:textColor="@color/white"
-                        android:textSize="24sp" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="180dp"
-                android:layout_height="200dp"
-                android:layout_margin="10dp"
-                android:onClick="switch_to_listening"
-                app:cardBackgroundColor="#2D2D2D"
-                app:cardCornerRadius="15dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="55dp"
-                        android:layout_marginBottom="2dp"
-                        android:src="@drawable/film" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/oleo"
-                        android:gravity="center"
-                        android:text="Listening"
+                        android:text="Father Knows Better
+-Sudeep Sharma"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
@@ -354,7 +291,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_reading"
+                android:onClick="classmates"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -375,7 +312,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Reading"
+                        android:text="Classmates"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
@@ -385,7 +322,7 @@
                 android:layout_width="180dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
-                android:onClick="switch_to_listening"
+                android:onClick="backbenchers"
                 app:cardBackgroundColor="#2D2D2D"
                 app:cardCornerRadius="15dp">
 
@@ -406,7 +343,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/oleo"
                         android:gravity="center"
-                        android:text="Listening"
+                        android:text="Backbenchers"
                         android:textColor="@color/white"
                         android:textSize="24sp" />
                 </LinearLayout>
